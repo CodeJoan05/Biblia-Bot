@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblia Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Obrazy/Biblia.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!--Pasek nawigacyjny-->
+    <nav>
+        <h2 class="logo">Biblia Bot</h2>
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li><a href="#commands">Komendy</a></li>
+            <li><a href="https://discord.com/api/oauth2/authorize?client_id=1090620310090420275&permissions=277025459200&scope=bot%20applications.commands" target="_blank">Zaproś bota</a></li>
+            <li><a href="#media">Social Media</a></li>
+        </ul>
+    </nav>
+
+    <!--O bocie-->
+    
+    <section class="bot">
+        <div id="bot">
+            <img src="Obrazy/Biblia.png" alt="Biblia Bot">
+            <div class="about-bot">
+                <h2>Dodaj biblijnego bota na swój serwer</h2>
+                <p>Bot zawiera przekłady Pisma Świętego w języku polskim, greckim i hebrajskim.
+                    Domyślnym przekładem Biblii ustawionym przez autora jest Uwspółcześniona Biblia Gdańska.
+                    Z czasem coraz więcej przekładów w języku polskim zostanie dodanych do bota 🙂
+                </p>
+                <a class="button"
+                    href="https://discord.com/api/oauth2/authorize?client_id=1090620310090420275&permissions=277025459200&scope=bot%20applications.commands"
+                    target="_blank">Zaproś bota na serwer</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Komendy-->
+
+    <div id="commands">
+        <h2>Lista komend</h2>
+        <h3>Poniżej znajdziesz listę slash komend bota biblijnego:</h3>
+        <p><span>/help</span> - instrukcja obsługi bota</p>
+        <br>
+        <p><span>/setversion [przekład]</span> - ustawia domyślny przekład Pisma Świętego. Aby ustawić domyślny przekład Pisma Świętego należy wpisać jego skrót. Wszystkie skróty
+        przekładów są dostępne w <span>/versions</span></p>
+        <br>
+        <p><span>[księga] [rozdział]:[werset-(y)] [przekład]</span> - schemat komendy do uzyskania fragmentów z Biblii. Jeśli użytkownik chce uzyskać fragment z danego przekładu Pisma Świętego
+         należy podać jego skrót. Przykład: <span>Jana 3:16-17 BG</span>. Jeśli użytkownik ustawił sobie domyślny przekład Pisma Świętego to nie trzeba podawać jego skrótu.</p>
+        <br>
+        <p><span>/versions</span> - pokazuje dostępne przekłady Pisma Świętego</p>
+        <br>
+        <p><span>/information</span> - wyświetla informacje na temat bota</p>
+        <br>
+        <h4>Ustawiony przez użytkownika domyślny przekład Pisma Świętego za pomocą komendy <span>/setversion</span> po wyłączeniu bota zostanie
+        zresetowany do ustawień fabrycznych.</h4>
+    </div>
+
+    <!--Social media-->
+    
+    <div id="media">
+        <h2>Zapraszam na moje profile społecznościowe!</h2>
+        <div class="social">
+            <a href="https://www.tiktok.com/@chrzescijanstwo_2021" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://youtube.com/@chrzescijanstwo2021?si=EW8_BxPIUFKPInRm?sub_confirmation=1" target="_blank">
+                <i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/chrzescijanstwo_2021/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <!--Copyright-->
+    
+    <div id="copyright">
+        <p class="end">© Copyright 2023 Chrześcijaństwo</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
