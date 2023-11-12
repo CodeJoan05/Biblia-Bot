@@ -263,9 +263,9 @@ span {
     }
 
     .about-bot p {
-        font-size: 10px;
+        font-size: 13px;
         text-align: center;
-        padding: 15px;
+        padding: 10px;
     }
 
     .about-bot .button {
@@ -273,6 +273,7 @@ span {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     #commands h3 {
