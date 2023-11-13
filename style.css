@@ -235,7 +235,7 @@ span {
     font-size: 14px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
     .card {
         width: 100%;
@@ -248,7 +248,7 @@ span {
 
     .about-bot {
         width: 100%;
-        padding: 25px;
+        padding: 20px;
     }
 
     .about-bot h2 {
