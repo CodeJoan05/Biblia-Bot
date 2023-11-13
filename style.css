@@ -173,12 +173,6 @@ span {
     padding: 1px 2px;
 }
 
-#commands h4 {
-    color: white;
-    font-size: 23px;
-    padding: 5px 10px;
-}
-
 /*Media*/
 
 #media {
@@ -254,7 +248,7 @@ span {
 
     .about-bot {
         width: 100%;
-        padding: 38px;
+        padding: 25px;
     }
 
     .about-bot h2 {
@@ -263,7 +257,7 @@ span {
     }
 
     .about-bot p {
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
         padding: 10px;
     }
@@ -280,8 +274,8 @@ span {
         font-size: 21px;
     }
 
-    #commands h4 {
-        text-align: center;
+    #commands h2 {
+        font-size: 36px;
     }
 
     #bot {
