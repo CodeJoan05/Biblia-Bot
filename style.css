@@ -139,7 +139,7 @@ nav .menu-icon:hover {
 #commands {
     background-color: #323232;
     width: 100%;
-    padding: 35px 35px;
+    padding: 30px 30px;
 }
 
 #commands h2 {
@@ -259,7 +259,6 @@ span {
     .about-bot p {
         font-size: 15px;
         text-align: center;
-        padding: 10px;
     }
 
     .about-bot .button {
