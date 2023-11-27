@@ -1,6 +1,6 @@
-Biblia Bot zawiera przekłady Pisma Świętego w języku polskim, angielskim, greckim i hebrajskim
+Biblia Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, greckim i hebrajskim**
 
-Lista komend:
+**Lista komend:**
 
 `/help` - instrukcja obsługi bota
 
@@ -11,3 +11,7 @@ Lista komend:
 `/versions` - pokazuje dostępne przekłady Pisma Świętego
 
 `/information` - wyświetla informacje na temat bota
+
+Domyślnym przekładem Pisma Świętego ustawionym przez autora jest `Uwspółcześniona Biblia Gdańska`
+
+Ustawiony przez użytkownika domyślny przekład Pisma Świętego za pomocą komendy `/setversion` po wyłączeniu bota **nie zostanie** zresetowany do ustawień fabrycznych
