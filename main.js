@@ -19,4 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navList.classList.remove('show');
         menuIcon.classList.remove('show');
     });
+
+    window.addEventListener('unload', function(){});
+    window.addEventListener('beforeunload', function(){});
 });
