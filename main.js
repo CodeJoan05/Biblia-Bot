@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
         menuIcon.classList.remove('show');
     });
 
-    window.addEventListener('unload', function(){});
-    window.addEventListener('beforeunload', function(){});
+    // Zastąp zdarzenia 'unload' i 'beforeunload' zdarzeniem 'pagehide'
+    window.addEventListener('pagehide', function(){});
 });
