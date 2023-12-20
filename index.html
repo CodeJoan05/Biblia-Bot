@@ -17,6 +17,7 @@
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></noscript>
+    <link rel="manifest" href="/manifest.json">
     <script defer src="main.js"></script>
     
 </head>
@@ -86,6 +87,18 @@
     <div id="copyright">
         <p class="end">© Copyright 2023 Chrześcijaństwo</p>
     </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(function(registration) {
+              console.log('Service Worker zarejestrowany z zakresem:', registration);
+            })
+            .catch(function(error) {
+              console.error('Błąd rejestracji Service Worker:', error);
+            });
+        }
+      </script>
 
 </body>
 
