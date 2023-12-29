@@ -1,4 +1,4 @@
-# Biblia to bot, który umożliwia czytanie Biblii w wielu językach, co pozwala na dogłębne badanie różnic między tekstami oryginalnymi a ich tłumaczeniami. Zawiera on przekłady Pisma Świętego w **języku polskim, angielskim, łacińskim, greckim i hebrajskim**
+## Biblia to bot, który umożliwia czytanie Biblii w wielu językach, co pozwala na dogłębne badanie różnic między tekstami oryginalnymi a ich tłumaczeniami. Zawiera on przekłady Pisma Świętego w **języku polskim, angielskim, łacińskim, greckim i hebrajskim**
 
 **Lista komend:**
 
