@@ -1,8 +1,10 @@
-## Biblia to bot, który umożliwia czytanie Biblii w wielu językach, co pozwala na dogłębne badanie różnic między tekstami oryginalnymi a ich tłumaczeniami.
+# Strona internetowa o "Biblia Bot"
 
-### Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, łacińskim, greckim i hebrajskim**
+## O bocie: 
 
-**Lista komend:**
+Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, łacińskim, greckim i hebrajskim**
+
+## **Lista komend:**
 
 `/help` - instrukcja obsługi bota
 
@@ -16,8 +18,8 @@
 
 `/information` - wyświetla informacje na temat bota
 
-Aby móc korzystać z funkcji wyszukiwania fragmentów Biblii, musisz najpierw ustawić domyślny przekład Pisma Świętego za pomocą komendy `/setversion`
+### Aby móc korzystać z funkcji wyszukiwania fragmentów Biblii, musisz najpierw ustawić domyślny przekład Pisma Świętego za pomocą komendy `/setversion`
 
-Ustawiony przez użytkownika domyślny przekład Pisma Świętego za pomocą komendy `/setversion` po wyłączeniu bota **nie zostanie** zresetowany do ustawień fabrycznych
+### Ustawiony przez użytkownika domyślny przekład Pisma Świętego za pomocą komendy `/setversion` po wyłączeniu bota **nie zostanie** zresetowany do ustawień fabrycznych
 
-**Link do strony:** https://codejoan05.github.io/Biblia-Bot/
+### **Link do strony:** https://codejoan05.github.io/Biblia-Bot/
