@@ -22,4 +22,4 @@ Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, łaciń
 
 ### Ustawiony przez użytkownika domyślny przekład Pisma Świętego za pomocą komendy `/setversion` po wyłączeniu bota **nie zostanie** zresetowany do ustawień fabrycznych
 
-### **Link do strony:** https://codejoan05.github.io/Biblia-Bot/
+## **Link do strony:** https://codejoan05.github.io/Biblia-Bot/
