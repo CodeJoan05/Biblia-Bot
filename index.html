@@ -23,70 +23,83 @@
 
 <body>
 
-    <!--Pasek nawigacyjny-->
-    
-    <nav>
-        <h2 class="logo">Biblia Bot</h2>
-        <div class="menu-icon">&#9776;</div>
-        <ul>
-            <li><a href="#commands">Komendy</a></li>
-            <li><a href="https://discord.com/api/oauth2/authorize?client_id=1090620310090420275&permissions=294205340736&scope=bot+applications.commands" target="_blank">Zaproś bota</a></li>
-            <li><a href="#media">Social Media</a></li>
-        </ul>
-    </nav>
+    <header>
 
-    <!--O bocie-->
+        <!--Pasek nawigacyjny-->
     
-    <section class="bot">
-        <div id="bot">
-            <img src="Images/Biblia.png" alt="Biblia Bot" width="500" height="500">
-            <div class="about-bot">
-                <h2>Dodaj biblijnego bota na swój serwer</h2>
-                <p>Biblia to bot, który umożliwia czytanie Biblii w wielu językach, co pozwala na dogłębne badanie różnic między tekstami oryginalnymi a ich tłumaczeniami. Zawiera on przekłady Pisma Świętego w języku polskim, angielskim, łacińskim, greckim i hebrajskim.</p>
-                <a class="button"
-                    href="https://discord.com/api/oauth2/authorize?client_id=1090620310090420275&permissions=294205340736&scope=bot+applications.commands"
-                    target="_blank">Zaproś bota na serwer</a>
+        <nav>
+            <h2 class="logo">Biblia Bot</h2>
+            <div class="menu-icon">&#9776;</div>
+            <ul>
+                <li><a href="#commands">Komendy</a></li>
+                <li><a href="https://discord.com/api/oauth2/authorize?client_id=1090620310090420275&permissions=277025459264&scope=bot+applications.commands" target="_blank">Zaproś bota</a></li>
+                <li><a href="#media">Social Media</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!--O bocie-->
+            
+        <section class="bot">
+            <div id="bot">
+                <img src="Images/Biblia.png" alt="Biblia Bot" width="500" height="500">
+                <div class="about-bot">
+                    <h2>Dodaj biblijnego bota na swój serwer</h2>
+                    <p>Biblia to bot, który umożliwia czytanie Biblii w wielu językach, co pozwala na dogłębne badanie różnic między tekstami oryginalnymi a ich tłumaczeniami. Zawiera on przekłady Pisma Świętego w języku polskim, angielskim, łacińskim, greckim i hebrajskim.</p>
+                    <a class="button"
+                        href="https://discord.com/api/oauth2/authorize?client_id=1090620310090420275&permissions=277025459264&scope=bot+applications.commands"
+                        target="_blank">Zaproś bota na serwer</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Komendy-->
+
+        <div id="commands">
+            <h2>Lista komend</h2>
+            <h3>Poniżej znajdziesz listę slash komend bota biblijnego:</h3>
+            <p><span>/help</span> - instrukcja obsługi bota</p>
+            <br>
+            <p><span>/setversion [przekład]</span> - ustawia domyślny przekład Pisma Świętego. Aby ustawić domyślny przekład Pisma Świętego należy wpisać jego skrót. Wszystkie skróty
+            przekładów są dostępne w <span>/versions</span></p>
+            <br>
+            <p><span>/search [słowo(a)]</span> - służy do wyszukiwania fragmentów Biblii zawierających określone słowo(a)</p>
+            <br>
+            <p><span>[księga] [rozdział]:[werset-(y)] [przekład]</span> - schemat komendy do uzyskania fragmentów z Biblii. Jeśli użytkownik chce uzyskać fragment z danego przekładu Pisma Świętego
+            należy podać jego skrót. Przykład: <span>Jana 3:16-17 BG</span>. Jeśli użytkownik ustawił sobie domyślny przekład Pisma Świętego to nie trzeba podawać jego skrótu.</p>
+            <br>
+            <p><span>/versions</span> - pokazuje dostępne przekłady Pisma Świętego</p>
+            <br>
+            <p><span>/information</span> - wyświetla informacje na temat bota</p>
+        </div>
+
+        <!--Social media-->
+
+        <div id="media">
+            <h2>Zapraszam na moje profile społecznościowe!</h2>
+            <div class="social">
+                <a href="https://www.tiktok.com/@chrzescijanstwo_2021" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://youtube.com/@chrzescijanstwo2021?si=EW8_BxPIUFKPInRm?sub_confirmation=1" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/chrzescijanstwo_2021/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </section>
+        
+    </main>
 
-    <!--Komendy-->
+    <footer>
 
-    <div id="commands">
-        <h2>Lista komend</h2>
-        <h3>Poniżej znajdziesz listę slash komend bota biblijnego:</h3>
-        <p><span>/help</span> - instrukcja obsługi bota</p>
-        <br>
-        <p><span>/setversion [przekład]</span> - ustawia domyślny przekład Pisma Świętego. Aby ustawić domyślny przekład Pisma Świętego należy wpisać jego skrót. Wszystkie skróty
-        przekładów są dostępne w <span>/versions</span></p>
-        <br>
-        <p><span>/search [słowo(a)]</span> - służy do wyszukiwania fragmentów Biblii zawierających określone słowo(a)</p>
-        <br>
-        <p><span>[księga] [rozdział]:[werset-(y)] [przekład]</span> - schemat komendy do uzyskania fragmentów z Biblii. Jeśli użytkownik chce uzyskać fragment z danego przekładu Pisma Świętego
-         należy podać jego skrót. Przykład: <span>Jana 3:16-17 BG</span>. Jeśli użytkownik ustawił sobie domyślny przekład Pisma Świętego to nie trzeba podawać jego skrótu.</p>
-        <br>
-        <p><span>/versions</span> - pokazuje dostępne przekłady Pisma Świętego</p>
-        <br>
-        <p><span>/information</span> - wyświetla informacje na temat bota</p>
-    </div>
-
-    <!--Social media-->
-    
-    <div id="media">
-        <h2>Zapraszam na moje profile społecznościowe!</h2>
-        <div class="social">
-            <a href="https://www.tiktok.com/@chrzescijanstwo_2021" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <a href="https://youtube.com/@chrzescijanstwo2021?si=EW8_BxPIUFKPInRm?sub_confirmation=1" target="_blank" aria-label="YouTube">
-                <i class="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com/chrzescijanstwo_2021/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <!--Copyright-->
+        
+        <div id="copyright">
+            <p class="end">© Copyright 2023 Code Joan</p>
         </div>
-    </div>
 
-    <!--Copyright-->
-    
-    <div id="copyright">
-        <p class="end">© Copyright 2023 Code Joan</p>
-    </div>
+    </footer>
+
 
 </body>
 
