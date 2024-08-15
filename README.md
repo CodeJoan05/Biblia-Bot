@@ -31,7 +31,3 @@ Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, łaciń
 ## **Strona internetowa:** 
 
 * https://biblia-bot.netlify.app/
-
-## **Kontakt:**
-
-Jeśli chcesz zgłosić błąd lub dać propozycję zmian w bocie skontaktuj się ze mną: **codejoan@op.pl**
