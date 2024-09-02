@@ -1,7 +1,13 @@
-/*Ukryty pasek scrolla*/
+/*Pasek scrolla*/
 
 ::-webkit-scrollbar {
-  display: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 107, 110);
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
 body {
