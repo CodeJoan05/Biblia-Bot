@@ -2,7 +2,7 @@
 
 ## O bocie: 
 
-Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, łacińskim, greckim i hebrajskim**
+Bot zawiera przekłady Pisma Świętego w **języku polskim, angielskim, niemieckim, łacińskim, greckim i hebrajskim**
 
 ## **Lista komend:**
 
