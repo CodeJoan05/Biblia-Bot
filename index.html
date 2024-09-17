@@ -13,9 +13,6 @@
     <title>Biblia Bot</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" href="images/Biblia.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="js/main.js"></script>
   </head>
 
@@ -29,7 +26,6 @@
           <li>
             <a href="https://dsc.gg/biblia-bot" target="_blank">Zaproś bota</a>
           </li>
-          <li><a href="#media">Social Media</a></li>
           <li>
             <a href="terms-of-service.html" target="_blank">Terms of Service</a>
           </li>
@@ -65,85 +61,60 @@
       </section>
 
       <!--Komendy-->
-
-      <div id="commands">
-        <h2>Lista komend</h2>
-        <h3>Poniżej znajdziesz listę slash komend bota biblijnego:</h3>
-        <p><span>/help</span> - instrukcja obsługi bota</p>
-        <br />
-        <p>
-          <span>/setversion [translation]</span> - ustawia domyślny przekład
-          Pisma Świętego. Aby ustawić domyślny przekład Pisma Świętego należy
-          wpisać jego skrót. Wszystkie skróty przekładów są dostępne w
-          <span>/versions</span>
-        </p>
-        <br />
-        <p>
-          <span>/search [text]</span> - służy do wyszukiwania fragmentów w danym
-          przekładzie Biblii
-        </p>
-        <br />
-        <p>
-          <span>[księga] [rozdział]:[werset-(y)] [przekład]</span> - schemat
-          komendy do uzyskania fragmentów z Biblii. Jeśli użytkownik chce
-          uzyskać fragment z danego przekładu Pisma Świętego należy podać jego
-          skrót. Przykład: <span>Jana 3:16-17 BG</span>. Jeśli użytkownik
-          ustawił sobie domyślny przekład Pisma Świętego to nie trzeba podawać
-          jego skrótu.
-        </p>
-        <br />
-        <p>
-          <span>/versions</span> - pokazuje dostępne przekłady Pisma Świętego
-        </p>
-        <br />
-        <p><span>/information</span> - wyświetla informacje o bocie</p>
-        <br />
-        <p><span>/invite</span> - umożliwia dodanie bota na swój serwer</p>
-        <br />
-        <p><span>/contact</span> - zawiera kontakt do autora bota</p>
-        <br />
-        <p>
-          <span>/random</span> - wyświetla losowy(e) werset(y) z Biblii (od 1 do
-          10 wersetów)
-        </p>
-        <br />
-        <p>
-          <span>/dailyverse [verses] [hour]</span> - umożliwia ustawienie
-          wersetu(ów) dnia z Biblii. Opcjonalnie można ustawić godzinę wysłania
-          wiadomości w formacie <b>HH:MM</b>
-        </p>
-        <br />
-        <p>
-          <span>/removeuserdata</span> - usuwa dane użytkownika z bazy danych
-        </p>
-      </div>
-
-      <!--Social media-->
-
-      <div id="media">
-        <h2>Zapraszam na moje profile społecznościowe!</h2>
-        <div class="social">
-          <a
-            href="https://www.tiktok.com/@god_is_graceful"
-            target="_blank"
-            aria-label="TikTok"
-            ><i class="fab fa-tiktok"></i
-          ></a>
-          <a
-            href="https://youtube.com/@chrzescijanstwo2021?si=EW8_BxPIUFKPInRm?sub_confirmation=1"
-            target="_blank"
-            aria-label="YouTube"
-          >
-            <i class="fab fa-youtube"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/god.is.graceful/"
-            target="_blank"
-            aria-label="Instagram"
-            ><i class="fab fa-instagram"></i
-          ></a>
+      
+      <section class="commands">
+        <div id="commands">
+          <h2>Lista komend</h2>
+          <h3>Poniżej znajdziesz listę slash komend bota biblijnego:</h3>
+          <p><span>/help</span> - instrukcja obsługi bota</p>
+          <br />
+          <p>
+            <span>/setversion [translation]</span> - ustawia domyślny przekład
+            Pisma Świętego. Aby ustawić domyślny przekład Pisma Świętego należy
+            wpisać jego skrót. Wszystkie skróty przekładów są dostępne w
+            <span>/versions</span>
+          </p>
+          <br />
+          <p>
+            <span>/search [text]</span> - służy do wyszukiwania fragmentów w danym
+            przekładzie Biblii
+          </p>
+          <br />
+          <p>
+            <span>[księga] [rozdział]:[werset-(y)] [przekład]</span> - schemat
+            komendy do uzyskania fragmentów z Biblii. Jeśli użytkownik chce
+            uzyskać fragment z danego przekładu Pisma Świętego należy podać jego
+            skrót. Przykład: <span>Jana 3:16-17 BG</span>. Jeśli użytkownik
+            ustawił sobie domyślny przekład Pisma Świętego to nie trzeba podawać
+            jego skrótu.
+          </p>
+          <br />
+          <p>
+            <span>/versions</span> - pokazuje dostępne przekłady Pisma Świętego
+          </p>
+          <br />
+          <p><span>/information</span> - wyświetla informacje o bocie</p>
+          <br />
+          <p><span>/invite</span> - umożliwia dodanie bota na swój serwer</p>
+          <br />
+          <p><span>/contact</span> - zawiera kontakt do autora bota</p>
+          <br />
+          <p>
+            <span>/random</span> - wyświetla losowy(e) werset(y) z Biblii (od 1 do
+            10 wersetów)
+          </p>
+          <br />
+          <p>
+            <span>/dailyverse [verses] [hour]</span> - umożliwia ustawienie
+            wersetu(ów) dnia z Biblii. Opcjonalnie można ustawić godzinę wysłania
+            wiadomości w formacie <b>HH:MM</b>
+          </p>
+          <br />
+          <p>
+            <span>/removeuserdata</span> - usuwa dane użytkownika z bazy danych
+          </p>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer>
